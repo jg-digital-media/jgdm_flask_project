@@ -23,6 +23,10 @@
 
 https://git.heroku.com/aqueous-thicket-63067.git | https://aqueous-thicket-63067.herokuapp.com/ git
 
++ A buildpack for your app should be specified in your Heroku Dashboard.  Mine is for Python,
+
++ Included a Procfile
+
 + ```git push heroku main```
 
 ... 
