@@ -25,7 +25,7 @@ https://git.heroku.com/aqueous-thicket-63067.git | https://aqueous-thicket-63067
 
 + A buildpack for your app should be specified in your Heroku Dashboard.  Mine is for Python,
 
-+ Included a Procfile - ```web: gunicorn gettingstarted.wsgi```
++ Included a Procfile - ```web: gunicorn gettingstarted.wsgi```  - A Procfile is used to declare what command should be executed to start your app.
 
 + ```git push heroku main```
 
