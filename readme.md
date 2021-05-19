@@ -1,4 +1,4 @@
-# Flask Project:  Last Update **19-05-2021:   11:47**
+# Flask Project:  Last Update **19-05-2021:   13:51**
 
 ## Served at Heroku
 
@@ -14,6 +14,8 @@
   + heroku update
   + heroku help
   + heroku --version
+  + heroku local
+  + heroku open
 
   
 #### Deployment
@@ -28,5 +30,9 @@ https://git.heroku.com/aqueous-thicket-63067.git | https://aqueous-thicket-63067
 + Included a Procfile - ```web: gunicorn gettingstarted.wsgi```  - A Procfile is used to declare what command should be executed to start your app.
 
 + ```git push heroku main```
+
++ Heroku local currently returns a ```ModuleNotFoundError: No module named 'fcntl'``` which seems to link with a compatability error with gunicorn and windows.
+
+The App is currently deployed to https://aqueous-thicket-63067.herokuapp.com/
 
 ... 
