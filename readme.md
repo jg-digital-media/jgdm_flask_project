@@ -15,4 +15,14 @@
   + heroku help
   + heroku --version
 
+  
+#### Deployment
+
++ ```heroku create```  (you may first have to use ```heroku login``` in the CLI)
+  https://aqueous-thicket-63067.herokuapp.com/ 
+
+https://serene-caverns-82714.herokuapp.com/ | https://git.heroku.com/serene-caverns-82714.git
+
++ ```git push heroku main```
+
 ... 
