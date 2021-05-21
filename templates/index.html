@@ -1,8 +1,10 @@
 {% extends "layout.html" %}
 
+{% block title %} Homepage {% endblock %}
+
 {% block styling %} <link rel="stylesheet" type="text/css" href="static/style.css" />  {% endblock %}
 
-{% block title %} Index | {{ super() }} {% endblock %}</title>
+{% block header %} Index | {{ super() }}  <span>index.html template </span> {% endblock %}</title>
 
 
 {% block content %}
