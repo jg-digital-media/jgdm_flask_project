@@ -1,11 +1,12 @@
-/*style.css: Last updated 20-04-2021 16:35*/
+/*style.css: Last updated 21-04-2021 16:00*/
 * {
   padding: 0;
   margin: 0; }
 
 body {
   background: #b0b098;
-  color: black; }
+  color: black;
+  font-family: "KoHo, sans-serif"; }
 
 .header {
   background: black;
@@ -16,6 +17,30 @@ body {
     position: relative;
     top: 40px;
     text-align: center; }
+
+.container {
+  display: block;
+  margin: 0 auto;
+  border: solid black 2px;
+  max-width: 1084px; }
+  .container .tutorial_container {
+    display: flex;
+    flex-direction: row; }
+
+.photo {
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px; }
+
+.photo_details {
+  padding: 20px;
+  line-height: 2; }
+
+.image_containers {
+  padding: 20px; }
+
+hr {
+  margin: 10px 0; }
 
 .footer {
   text-align: center;
