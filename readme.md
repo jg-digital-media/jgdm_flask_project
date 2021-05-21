@@ -1,10 +1,13 @@
-# Flask Project:  Last Update **21-05-2021:   09:5**
+# Flask Project:  Last Update **21-05-2021:   13:20**
 
 
 ## App Details
 
-This app is designed to be a photography instructional tool.  Stay tuned as the repository updates for more information
+This app is designed to be a photography instructional tool.  Stay tuned as the repository updates for more information. To run the app in local development, make sure you include the folllowing code in ```app.py``` -  ```app.run(debug=True, port=8000, host='0.0.0.0')```. 
 
+Use the command ```python app.py```
+
+You will see a URL like this one in your Command Line interface or Terminal. http://192.168.0.20:8000/
 
 ## Deployed to Heroku
 
@@ -36,8 +39,7 @@ This app is designed to be a photography instructional tool.  Stay tuned as the 
 
 #### Deployment
 
-+ ```heroku create``` (you may first have to use ```heroku login``` in the CLI)
- 
++ ```heroku create``` (you may first have to use ```heroku login``` in the CLI) 
 
 + A buildpack for your app should be specified in your Heroku Dashboard.  Mine is for Python,
 
