@@ -1,9 +1,9 @@
-# Flask Project:  Last Update **21-05-2021:   13:20**
+# Flask Project:  Last Update **21-05-2021:   16:37**
 
 
 ## App Details
 
-This app is designed to be a photography instructional tool.  Stay tuned as the repository updates for more information. To run the app in local development, make sure you include the folllowing code in ```app.py``` -  ```app.run(debug=True, port=8000, host='0.0.0.0')```. 
+**Description:** - This app is designed to be a photography instructional tool.  Stay tuned as the repository updates for more information. There will a Home route, an "About" route and a route for photos lists and instructions.  To run the app in local development, make sure you include the folllowing code in ```app.py```. -  ```app.run(debug=True, port=8000, host='0.0.0.0')```. 
 
 Use the command ```python app.py```
 
@@ -49,7 +49,7 @@ You will see a URL like this one in your Command Line interface or Terminal. htt
 
 + If you are using local server debugging (i.e. ```app.run(debug=True, port=8000, host='0.0.0.0'```) make sure this is **switched off/commented** out in production)
 
-+ It took me a lot of Googling and reading to learn the process of deploying and common "gotchas" when deploying and app like this. These are just a few of the links I used to get to successful deployment
++ It took me a lot of Googling and reading to learn the process of deploying and common "gotchas" when deploying an app like this. These are just a few of the links I used to get to successful deployment.
   + https://www.codecademy.com/articles/deploying-a-flask-app 
   + https://dev.to/techparida/how-to-deploy-a-flask-app-on-heroku-heb
   + https://www.codecademy.com/articles/deploying-a-flask-app
