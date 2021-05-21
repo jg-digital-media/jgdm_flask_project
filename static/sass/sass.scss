@@ -1,8 +1,27 @@
 /*style.css: Last updated 20-04-2021 16:35*/
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background: beige;
+    background: #b0b098;
     color: black;
+}
+
+.header {
+    background: black;
+    height: 150px;
+    border-bottom: solid white 3px;
+    color: white;
+
+    h1 {
+
+        position: relative; 
+        top: 40px;
+        text-align: center;
+    }
 }
 
 .footer {
