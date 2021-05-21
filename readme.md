@@ -7,7 +7,7 @@ This app is designed to be a photography instructional tool.  Stay tuned as the 
 
 Use the command ```python app.py```
 
-You will see a URL like this one in your Command Line interface or Terminal. http://192.168.0.20:8000/
+You will see a URL like this one in your Command Line interface or Terminal. http://0.0.0.0.20:8000/
 
 ## Deployed to Heroku
 
