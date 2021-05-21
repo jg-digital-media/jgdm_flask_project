@@ -27,7 +27,13 @@ This app is designed to be a photography instructional tool.  Stay tuned as the 
   + heroku open
   + heroku logs --tail
 
-  
++ Important deployment files include
+  + A Heroku ```procfile```
+  + requirements.txt
+  + runtime.txt
+  + A Python file as application entry point.   ```app.py``` is the entry point for this project.
+  + Heroku CLI.  Git Version Control
+
 #### Deployment
 
 + ```heroku create``` (you may first have to use ```heroku login``` in the CLI)
