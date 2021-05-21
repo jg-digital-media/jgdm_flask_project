@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %} Homepage {% endblock %}
+
+{% block styling %} <link rel="stylesheet" type="text/css" href="static/style.css" />  {% endblock %}
+
+{% block header %} Index | {{ super() }}  <span>index.html template </span> {% endblock %}</title>
+
+<div class="container">
+{% block content %}
+    <h1> Photos Page </h1>
+
+    <p>Photos Content</p>
+{% endblock %}
+
+</div>
+
+{% block scripts %}
+<script type="text/javascript" src="static/app.js"></script>
+ {% endblock %}
