@@ -47,7 +47,7 @@ This app is designed to be a photography instructional tool.  Stay tuned as the 
 
 + If you are using local server debugging (i.e. ```app.run(debug=True, port=8000, host='0.0.0.0'```) make sure this is **switched off/commented** out in production)
 
-+ It took me a lot of Googling and reading to learn the process of deploying and common "gotchas" when deploying and app like this. These are just a few of the links I used to get to auccessfull deployment
++ It took me a lot of Googling and reading to learn the process of deploying and common "gotchas" when deploying and app like this. These are just a few of the links I used to get to successful deployment
   + https://www.codecademy.com/articles/deploying-a-flask-app 
   + https://dev.to/techparida/how-to-deploy-a-flask-app-on-heroku-heb
   + https://www.codecademy.com/articles/deploying-a-flask-app
