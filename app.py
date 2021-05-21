@@ -13,6 +13,13 @@ def hello(name="Treehouse"):
      return render_template("index.html", name=name)
 
 
+# photo route(s)
+
+@app.route('/photos')
+
+def photos():
+    return render_template("photos.html")
+
 """ 
     # return a simple route as plain text
     def add(num1, num2):
