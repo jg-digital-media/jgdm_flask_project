@@ -2,15 +2,31 @@
 
 {% block title %} Homepage {% endblock %}
 
-{% block styling %} <link rel="stylesheet" type="text/css" href="static/style.css" />  {% endblock %}
+{% block styling %} 
+
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo&family=Roboto&display=swap" rel="stylesheet">
+    
+{% endblock %}
 
 {% block header %} Index | {{ super() }}  <span>index.html template </span> {% endblock %}</title>
 
 
 {% block content %}
-    <h1> Hello, from {{ name }} </h1>
+
+<div>
+
+    <h2> Hello, from {{ name }} </h2>
+
+    <p>My name is Jonathan. I am a web designer and a photographer. I wanted to create a website that combined my main interests; Web Design and Photography.  It was built in Python and the Flask Framework. The photos were taken with a Canon EOS 4000D DSLR Camera.</p>
 
     <p>Read about Deployment to Heroku <a href="https://devcenter.heroku.com/articles/getting-started-with-python" blank="target">here</a>
+
+</div>
+
 {% endblock %}
 
 {% block scripts %}
