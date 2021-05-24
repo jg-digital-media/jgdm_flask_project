@@ -2,7 +2,6 @@
 from flask import Flask
 from flask import render_template
 
-
 # use whatever the current namespace is as instance name
 app = Flask (__name__)  
 
@@ -14,32 +13,18 @@ def hello(name="Castle Eden, Durham."):
 
 
 # Flask Routing
-
 @app.route('/photos')
 def photos():
     return render_template("photos.html")
-
 
 @app.route('/about')
 def about():
     return render_template("about.html")
 
-
 @app.route('/tutorial')
 def tutorial():
     return render_template("tutorial.html")
 
-""" 
-    # return a simple route as plain text
-    def add(num1, num2):
-    return '{}+{}={}'.format(num1, num2, num1+num2) 
-"""
-
-#add route for a URL calculator
-@app.route('/add/<int:num1>/<int:num2>')
-@app.route('/add/<float:num1>/<float:num2>')
-@app.route('/add/<int:num1>/<float:num2>')
-@app.route('/add/<float:num1>/<int:num2>')
 
 # return a html string
 def add(num1, num2):
