@@ -1,4 +1,4 @@
-# Flask Project:  Last Update **21-05-2021:   16:37**
+# Flask Project:  Last Update **24-05-2021:   13:20**
 
 
 ## App Details
@@ -54,6 +54,12 @@ You will see a URL like this one in your Command Line interface or Terminal. htt
   + https://dev.to/techparida/how-to-deploy-a-flask-app-on-heroku-heb
   + https://www.codecademy.com/articles/deploying-a-flask-app
 
+
+## Photo Tutorial Notes
+
++ 1) - Photo Sharpness - 
+  + IMG_7440   f/9  1/4000sec  ISO-3200  at 100mm focal length.  But there's plenty of sunlight in these photos
+  + IMB_7441  f/9 1/250sec  ISO-200 at 75mm focal length
 
 
 ### The App is currently deployed to
