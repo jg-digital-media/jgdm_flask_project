@@ -1,4 +1,4 @@
-/*style.css: Last updated 21-04-2021 16:00*/
+/* Last Updated: 24-04-2021 14:22 */
 * {
   padding: 0;
   margin: 0; }
@@ -6,17 +6,29 @@
 body {
   background: #b0b098;
   color: black;
-  font-family: "KoHo, sans-serif"; }
+  font-family: "KoHo"; }
 
 .header {
   background: black;
-  height: 150px;
+  height: 130px;
   border-bottom: solid white 3px;
-  color: white; }
+  color: white;
+  padding-top: 20px; }
   .header h1 {
     position: relative;
-    top: 40px;
+    top: 5px;
     text-align: center; }
+  .header nav {
+    width: 100%;
+    text-align: center; }
+    .header nav ul li {
+      display: inline-block;
+      margin-left: 10px; }
+      .header nav ul li a {
+        color: white;
+        color: #fee970; }
+        .header nav ul li a:hover {
+          text-decoration: none; }
 
 .container {
   display: block;
@@ -27,6 +39,7 @@ body {
     display: flex;
     flex-direction: row; }
 
+/*Photo styles*/
 .photo {
   width: 300px;
   padding: 20px;
@@ -35,6 +48,9 @@ body {
 .photo_details {
   padding: 20px;
   line-height: 2; }
+
+#main_img {
+  width: 80%; }
 
 .image_containers {
   padding: 20px; }

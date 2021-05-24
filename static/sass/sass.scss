@@ -1,4 +1,4 @@
-/*style.css: Last updated 21-04-2021 16:00*/
+/* Last Updated: 24-04-2021 14:22 */
 
 //partials
 
@@ -17,15 +17,40 @@ body {
 
 .header {
     background: black;
-    height: 150px;
+    height: 130px;
     border-bottom: solid white 3px;
     color: white;
+    padding-top: 20px;
 
     h1 {
 
         position: relative; 
-        top: 40px;
+        top: 5px;
         text-align: center;
+    }
+
+    nav {
+
+        width: 100%;
+        text-align: center;
+
+        ul {
+
+            li {
+
+                display: inline-block;
+                margin-left: 10px;
+
+                a {
+                    color: white;
+                    color: #fee970;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -45,6 +70,8 @@ body {
 
 }
 
+
+/*Photo styles*/
 .photo {
     width: 300px;
     padding: 20px;
@@ -54,6 +81,11 @@ body {
 .photo_details {
     padding: 20px;
     line-height: 2;
+}
+
+//about.html - photo image
+#main_img {
+    width: 80%;
 }
 
 .image_containers {

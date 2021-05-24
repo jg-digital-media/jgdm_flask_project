@@ -9,7 +9,7 @@ app = Flask (__name__)
 # multi routes
 @app.route('/')
 @app.route('/<name>')
-def hello(name="Treehouse"):
+def hello(name="Castle Eden, Durham."):
      return render_template("index.html", name=name)
 
 
