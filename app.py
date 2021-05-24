@@ -13,12 +13,21 @@ def hello(name="Treehouse"):
      return render_template("index.html", name=name)
 
 
-# photo route(s)
+# Flask Routing
 
 @app.route('/photos')
-
 def photos():
     return render_template("photos.html")
+
+
+@app.route('/about')
+def about():
+    return render_template("about.html")
+
+
+@app.route('/tutorial')
+def tutorial():
+    return render_template("tutorial.html")
 
 """ 
     # return a simple route as plain text
@@ -36,4 +45,4 @@ def photos():
 def add(num1, num2):
     return render_template("multiply.html", num1=num1, num2=num2)
 
-# app.run(debug=True, port=8000, host='0.0.0.0')
+app.run(debug=True, port=8000, host='0.0.0.0')
