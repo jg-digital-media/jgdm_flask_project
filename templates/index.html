@@ -17,15 +17,21 @@
 
 {% block content %}
 
-<div>
+<section class="container">
 
-    <h2> Hello, from {{ name }} </h2>
+    <h2>Hello, from {{ name }} </h2>
 
-    <p>My name is Jonathan. I am a web designer and a photographer. I wanted to create a website that combined my main interests; Web Design and Photography.  It was built in Python and the Flask Framework. The photos were taken with a Canon EOS 4000D DSLR Camera.</p>
+    <article>
 
-    <p>Read about Deployment to Heroku <a href="https://devcenter.heroku.com/articles/getting-started-with-python" blank="target">here</a>
+        <h2> And welcome!</h2>
 
-</div>
+        <p>My name is Jonathan. I am a web designer and a photographer. I wanted to create a website that combined my main interests; Web Design and Photography.  It was built in Python and the Flask Framework. The photos were taken with a Canon EOS 4000D DSLR Camera.</p>
+
+        <p>Read about Deployment to Heroku <a href="https://devcenter.heroku.com/articles/getting-started-with-python" blank="target">here</a>
+
+    </article>
+
+</section>
 
 {% endblock %}
 

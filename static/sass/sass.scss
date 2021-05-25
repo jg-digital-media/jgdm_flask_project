@@ -1,4 +1,4 @@
-/* Last Updated: 25-04-2021 11:35 */
+/* Last Updated: 25-04-2021 12:17 */
 
 //partials
 @import "fonts";
@@ -62,13 +62,20 @@ body {
     max-width: 1084px;
     background: white;
 
-    .tutorial_container {
+    article {
 
+    }
+
+
+    // Tutorial Route
+    .tutorial_container {
         display: flex;
         flex-direction: row;
 
     }
 
+
+    //About Route
     .about {
         background: white;
         padding: 20px;
