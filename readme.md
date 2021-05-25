@@ -1,4 +1,4 @@
-# Flask Project:  Last Update **24-05-2021:   13:20**
+# Flask Project:  Last Update **25-05-2021:   12:20**
 
 
 ## App Details
