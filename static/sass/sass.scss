@@ -1,7 +1,6 @@
-/* Last Updated: 24-04-2021 14:22 */
+/* Last Updated: 25-04-2021 11:35 */
 
 //partials
-
 @import "fonts";
 
 * {
@@ -11,6 +10,8 @@
 
 body {
     background: #b0b098;
+    background: url(img/jg-photo-bg-clear.png), repeat, top left;
+    background-size: 20%;
     color: black;
     font-family: $font;
 }
@@ -59,12 +60,18 @@ body {
     margin: 0 auto;
     border: solid black 2px;
     max-width: 1084px;
+    background: white;
 
     .tutorial_container {
 
         display: flex;
         flex-direction: row;
 
+    }
+
+    .about {
+        background: white;
+        padding: 20px;
     }
 
 
