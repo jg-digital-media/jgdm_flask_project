@@ -72,13 +72,46 @@ body {
         display: flex;
         flex-direction: row;
 
+        
+        hr {
+            width: 250px;
+            display: block;
+            margin: 20px auto;
+            color: red;
+            border: red solid 1px;
+        }
+
+        .meta-data {
+            background: beige;
+            font-size: 13px;
+            padding: 0 5px;
+            border: dashed orange 1px
+        }
+
     }
+
+
 
 
     //About Route
     .about {
         background: white;
         padding: 20px;
+    }
+
+    
+    //Photos List
+    .photo_content_container {
+
+    }
+
+    
+    hr {
+        width: 250px;
+        display: block;
+        margin: 20px auto;
+        color: red;
+        border: red solid 1px;
     }
 
 
