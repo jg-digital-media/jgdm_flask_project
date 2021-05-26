@@ -25,7 +25,7 @@
             <p>Labore deserunt repellendus doloremque itaque tempora voluptas nihil hic repellat? </p>
 
             <div class="meta-data">
-
+                <span><strong>Filename: </strong> name.JPG</span>
                 <span><strong>ISO: </strong> 100 </span> 
                 <span><strong>Shutter Speed: </strong> 1/500 </span>
                 <span><strong>Aperture: </strong>f/8 </span>
@@ -46,8 +46,9 @@
             
             <img src="../static/img/photos/IMG_4755.JPG" alt="" title="" class="photo" />
 
+          
             <div class="meta-data">
-
+                <span><strong>Filename: </strong> name.JPG</span>
                 <span><strong>ISO: </strong> 100 </span> 
                 <span><strong>Shutter Speed: </strong> 1/500 </span>
                 <span><strong>Aperture: </strong>f/8 </span>
@@ -71,8 +72,9 @@
             
             <img src="../static/img/photos/IMG_4755.JPG" alt="" title="" class="photo" />
 
+            
             <div class="meta-data">
-
+                <span><strong>Filename: </strong> name.JPG</span>
                 <span><strong>ISO: </strong> 100 </span> 
                 <span><strong>Shutter Speed: </strong> 1/500 </span>
                 <span><strong>Aperture: </strong>f/8 </span>
