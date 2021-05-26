@@ -12,6 +12,7 @@ body {
     background: #b0b098;
     background: url(img/jg-photo-bg-clear-transparent.png), repeat, top left;
     background-size: 20%;
+    background-attachment: fixed;
     color: black;
     font-family: $font;
 }
