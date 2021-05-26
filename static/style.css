@@ -23,7 +23,8 @@ body {
     text-align: center; }
   .header nav {
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    margin-top: 10px; }
     .header nav ul li {
       display: inline-block;
       margin-left: 10px; }
