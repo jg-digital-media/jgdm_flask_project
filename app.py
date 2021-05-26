@@ -26,8 +26,20 @@ def tutorial():
     return render_template("tutorial.html")
 
 
+@app.route('/tutorial/1')
+def tutorial_page_1():
+    return render_template("tutorial-one.html")
+
+
+@app.route('/tutorial/2')
+def tutorial_page_2():
+    return render_template("tutorial-two.html")
+
+
+
+
 # return a html string
 def add(num1, num2):
     return render_template("multiply.html", num1=num1, num2=num2)
 
-# app.run(debug=True, port=8000, host='0.0.0.0')
+app.run(debug=True, port=8000, host='0.0.0.0')
