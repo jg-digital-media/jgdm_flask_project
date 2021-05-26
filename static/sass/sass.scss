@@ -1,4 +1,4 @@
-/* Last Updated: 25-04-2021 12:17 */
+/* Last Updated: 26-04-2021 09:55 */
 
 //partials
 @import "fonts";
@@ -10,7 +10,7 @@
 
 body {
     background: #b0b098;
-    background: url(img/jg-photo-bg-clear.png), repeat, top left;
+    background: url(img/jg-photo-bg-clear-transparent.png), repeat, top left;
     background-size: 20%;
     color: black;
     font-family: $font;
@@ -60,10 +60,57 @@ body {
     margin: 0 auto;
     border: solid black 2px;
     max-width: 1084px;
-    background: white;
+    background: white;   
 
-    article {
+    h2 {
+        line-height: 2;
+        text-align: center;
+    }
 
+    //tutorial meta data box
+    .meta-data {
+        background: beige;
+        font-size: 13px;
+        padding: 0 5px;
+        border: dashed orange 1px;
+        margin: 5px auto;
+        display: block;
+        width: 350px;
+    }
+
+
+    //home route
+    .content > h2 {
+        line-height: 2;
+    }
+
+    .content {
+        text-align: center;
+        margin-top: 25px;
+
+        div {
+            display: inline-block;
+            width: 44%;
+            text-align: left;
+            vertical-align: top;
+        }
+
+    }
+
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+
+    //About Route
+    .about {
+        background: white;
+        padding: 20px;
     }
 
 
@@ -72,6 +119,18 @@ body {
         display: flex;
         flex-direction: row;
 
+        @media (max-width: 680px) {
+            flex-direction: column;
+        }
+
+        .image_container {
+
+            @media (max-width: 680px) {
+                margin: 0 auto;
+                width: 60%;
+            }
+        }
+
         
         hr {
             width: 250px;
@@ -79,24 +138,8 @@ body {
             margin: 20px auto;
             color: red;
             border: red solid 1px;
-        }
+        }        
 
-        .meta-data {
-            background: beige;
-            font-size: 13px;
-            padding: 0 5px;
-            border: dashed orange 1px
-        }
-
-    }
-
-
-
-
-    //About Route
-    .about {
-        background: white;
-        padding: 20px;
     }
 
     
@@ -123,11 +166,47 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 5px;
+
+    @media (max-width: 680px) {
+        padding: 20px 0;
+    }
 }
+
+.image_container {
+    position: relative;
+
+
+    .filename_tooltip {
+        background: black;
+        display: none;
+        color: white;
+        padding: 5px;
+        width: 200px;
+        position: absolute;
+        font-size: 10px;
+        top: 20px;        
+
+        &:hover {
+            display: block;
+            z-index: 1000
+        }
+
+        
+    } 
+}
+
+
 
 .photo_details {
     padding: 20px;
     line-height: 2;
+
+    @media (max-width: 1084px) {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+
+    }
 }
 
 //about.html - photo image
