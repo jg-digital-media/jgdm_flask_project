@@ -1,4 +1,4 @@
-/* Last Updated: 26-04-2021 15:25 */
+/* Last Updated: 26-04-2021 16:07 */
 
 //partials
 @import "fonts";
@@ -88,7 +88,7 @@ body {
     .pagination_area {
         width: 100%;
         display: block;
-        margin: 0 auto;
+        margin: 8px auto;
         text-align: center;
 
         a {
@@ -154,6 +154,27 @@ body {
     .about {
         background: white;
         padding: 20px;
+
+        div {
+            display: inline-block;
+            width: 44%;
+            text-align: left;
+            vertical-align: top;
+
+            @media (max-width: 680px) {
+                display: block;
+                margin: 0 auto;
+                width: 90%;
+            }
+        }
+
+        img {
+            
+            @media (max-width: 680px) { 
+                margin: 0 auto;
+                width: 75%;
+            }
+        }
     }
 
 
@@ -248,10 +269,11 @@ body {
 }
 
 
-
+//tutorial photo text details
 .photo_details {
     padding: 20px;
     line-height: 2;
+    text-align: left;
 
     @media (max-width: 1084px) {
         display: block;
