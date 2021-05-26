@@ -1,4 +1,4 @@
-/* Last Updated: 26-04-2021 09:55 */
+/* Last Updated: 26-04-2021 15:25 */
 
 //partials
 @import "fonts";
@@ -76,6 +76,27 @@ body {
         margin: 5px auto;
         display: block;
         width: 350px;
+
+        @media (max-width: 680px) {
+            width: 35%;
+        }
+    }
+
+    //tutorial pagination area
+
+    .pagination_area {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+
+        a {
+            color: red;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
     }
 
 
@@ -117,7 +138,11 @@ body {
     // Tutorial Route
     .tutorial_container {
         display: flex;
-        flex-direction: row;
+        flex-direction: row;      
+
+        @media (max-width: 960px) {
+            //flex-direction: column;
+        }   
 
         @media (max-width: 680px) {
             flex-direction: column;
@@ -125,9 +150,30 @@ body {
 
         .image_container {
 
+            position: relative;
+
+            @media(max-width: 960px) {
+                /* width: 90%; */
+                width: 100%;
+            }
+
             @media (max-width: 680px) {
                 margin: 0 auto;
                 width: 60%;
+            }
+
+            
+            > span {
+                position: absolute;
+                top: 20px;
+                /* display: none; */
+                left: 22px;
+                font-size: 13px;
+                font-weight: bold;
+
+                &:hover {
+                    display: block;
+                }
             }
         }
 
@@ -157,42 +203,26 @@ body {
         border: red solid 1px;
     }
 
-
 }
 
 
 /*Photo styles*/
 .photo {
-    width: 300px;
+    width: 90%;
     padding: 20px;
     border-radius: 5px;
+
+    @media(max-width: 960px) {
+        width: 90%;
+    }
+
+
 
     @media (max-width: 680px) {
         padding: 20px 0;
     }
-}
 
-.image_container {
-    position: relative;
-
-
-    .filename_tooltip {
-        background: black;
-        display: none;
-        color: white;
-        padding: 5px;
-        width: 200px;
-        position: absolute;
-        font-size: 10px;
-        top: 20px;        
-
-        &:hover {
-            display: block;
-            z-index: 1000
-        }
-
-        
-    } 
+    
 }
 
 
@@ -205,6 +235,10 @@ body {
         display: block;
         width: 90%;
         margin: 0 auto;
+
+    }
+
+    @media (max-width: 960px) {
 
     }
 }
