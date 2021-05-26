@@ -107,15 +107,36 @@ body {
 
     .content {
         text-align: center;
-        margin-top: 25px;
+        margin-top: 25px;   
+
+    }
+
+    .home {
 
         div {
             display: inline-block;
             width: 44%;
             text-align: left;
             vertical-align: top;
+
+            @media (max-width: 680px) {
+                display: block;
+                margin: 0 auto;
+                width: 90%;
+            }
+
+            
+            img {
+                @media (max-width: 680px) { 
+                    margin: 0 auto;
+                    width: 75%;
+                }
+            }
         }
 
+        @media (max-width: 680px) {
+            display: block
+        }
     }
 
     p {

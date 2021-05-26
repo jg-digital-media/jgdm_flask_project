@@ -66,11 +66,23 @@ body {
   .container .content {
     text-align: center;
     margin-top: 25px; }
-    .container .content div {
-      display: inline-block;
-      width: 44%;
-      text-align: left;
-      vertical-align: top; }
+  .container .home div {
+    display: inline-block;
+    width: 44%;
+    text-align: left;
+    vertical-align: top; }
+    @media (max-width: 680px) {
+      .container .home div {
+        display: block;
+        margin: 0 auto;
+        width: 90%; } }
+    @media (max-width: 680px) {
+      .container .home div img {
+        margin: 0 auto;
+        width: 75%; } }
+  @media (max-width: 680px) {
+    .container .home {
+      display: block; } }
   .container p {
     line-height: 1.6;
     margin-bottom: 20px; }
