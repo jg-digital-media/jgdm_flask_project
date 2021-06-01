@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block title %} Tutorial {% endblock %}
+
+{% block styling %} 
+
+<link rel="stylesheet" type="text/css" href="../static/style.css" />
+  
+<!-- Google Font-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo&family=Roboto&display=swap" rel="stylesheet"> 
+
+{% endblock %}
+
+{% block header %} Photography Tutorial! {% endblock %}</title>
+
+
+{% block content %}
+
+<section class="container">    
+
+    <h2> Photos Tutorial Page 2 </h2>
+
+    <div class="pagination_area">
+        <a href="/tutorial">PREV</a> | <a href="/tutorials/3">NEXT</a>
+    </div>
+
+    <!-- new tutorial container -->
+    <article class="content tutorial_container">
+
+        <div class="image_container">
+            
+                <img src="../static/img/photos/IMG_7301.JPG" alt="" title="" class="photo" />
+                                 
+                <span class="filename_tooltip">IMG_7301.JPG</span>
+
+        </div>        
+
+        <div class="photo_details">
+
+            <h3>Capturing rainfall</h3>
+
+            <p>A budding tree stem is the focal point.Capturing raindrops at high ISO. Loses sharpness in low sunlight but helps with picking out downpours in the rain</p>  
+
+        </div>  
+
+    </article>    
+        
+    <div class="meta-data">
+        <span><strong>Filename: </strong> IMG_7301.JPG</span>
+        <span><strong>ISO: </strong> 100 </span> 
+        <span><strong>Shutter Speed: </strong> 1/500 </span>
+        <span><strong>Aperture: </strong>f/8 </span>
+        <span><strong>Focal Length: </strong> 300mm </span>
+
+    </div>        
+    
+    <hr />
+
+    <div class="pagination_area">
+        <a href="/tutorial">PREV</a> | <a href="/tutorials/3">NEXT</a>
+    </div>
+   
+
+</section>
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="static/app.js"></script>
+ {% endblock %}
