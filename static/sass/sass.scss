@@ -306,5 +306,18 @@ hr {
 .footer {
     text-align: center;
     width: 100%;
-    font-size: 10px;;
+    font-size: 10px;
+
+    h2 {
+
+        margin-top: 10px;
+        
+        a {
+            color: red;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
 }

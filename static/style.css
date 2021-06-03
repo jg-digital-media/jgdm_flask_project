@@ -129,7 +129,9 @@ body {
         /* display: none; */
         left: 22px;
         font-size: 13px;
-        font-weight: bold; }
+        font-weight: normal;
+        background: #3a3632;
+        color: white; }
         .container .tutorial_container .image_container > span:hover {
           display: block; }
     .container .tutorial_container hr {
@@ -180,5 +182,11 @@ hr {
   text-align: center;
   width: 100%;
   font-size: 10px; }
+  .footer h2 {
+    margin-top: 10px; }
+    .footer h2 a {
+      color: red; }
+      .footer h2 a:hover {
+        text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
