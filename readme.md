@@ -1,4 +1,4 @@
-# Flask Project:  Last Update **25-05-2021:   12:20**
+# Flask Project:  Last Update 6th June 20211:   10:45**
 
 
 ## App Details
@@ -55,15 +55,6 @@ You will see a URL like this one in your Command Line interface or Terminal. htt
   + https://www.codecademy.com/articles/deploying-a-flask-app
 
 
-## Photo Tutorial Notes
 
-+ 1) - Photo Sharpness - 
-  + IMG_7440   f/9  1/4000sec  ISO-3200  at 100mm focal length.  But there's plenty of sunlight in these photos
-  + IMB_7441  f/9 1/250sec  ISO-200 at 75mm focal length
-
-
-### The App is currently deployed to
+# The App is currently deployed to
   + https://aqueous-thicket-63067.herokuapp.com/
-
-
-https://git.heroku.com/aqueous-thicket-63067.git
