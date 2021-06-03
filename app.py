@@ -23,17 +23,24 @@ def about():
 
 @app.route('/tutorial')
 def tutorial():
-    return render_template("tutorial.html")
+    return render_template("tutorials/tutorial.html")
 
 
-@app.route('/tutorial/1')
-def tutorial_page_1():
-    return render_template("tutorial-one.html")
-
-
-@app.route('/tutorial/2')
+@app.route('/tutorials/2')
 def tutorial_page_2():
-    return render_template("tutorial-two.html")
+    return render_template("tutorials/tutorial-two.html")
+
+
+@app.route('/tutorials/3')
+def tutorial_page_3():
+    return render_template("tutorials/tutorial-three.html")
+
+
+@app.route('/tutorials/4')
+def tutorial_page_4():
+    return render_template("tutorials/tutorial-four.html")
+
+
 
 
 
@@ -42,4 +49,4 @@ def tutorial_page_2():
 def add(num1, num2):
     return render_template("multiply.html", num1=num1, num2=num2)
 
-# app.run(debug=True, port=8000, host='0.0.0.0')
+app.run(debug=True, port=8000, host='0.0.0.0')
