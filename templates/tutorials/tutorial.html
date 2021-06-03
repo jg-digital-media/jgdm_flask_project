@@ -5,12 +5,20 @@
 {% block styling %} 
 
 <link rel="stylesheet" type="text/css" href="static/style.css" />
-  
+
 <!-- Google Font-->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=KoHo&family=Roboto&display=swap" rel="stylesheet"> 
 
 {% endblock %}
+
+{% block lightbox %}
+
+<!-- Lightbox -->
+<link href="../static/lightbox/lightbox.css" rel="stylesheet">
+
+{% endblock %}
+
 
 {% block header %} Tutorial Pages {% endblock %}</title>
 
@@ -30,9 +38,19 @@
 
         <div class="image_container">
             
-                <img src="../static/img/photos/IMG_4755.JPG" alt="" title="" class="photo" />
+                <!-- <img src="../static/img/photos/IMG_4755.JPG" alt="" title="" class="photo" />
                                  
-                <span class="filename_tooltip">IMG_4755.JPG</span>
+                <span class="filename_tooltip">IMG_4755.JPG</span> -->
+
+                
+                <a href="../static/img/photos/IMG_4755.JPG" data-lightbox="tutorial" data-title="tutorial"> 
+                    
+                    <img src="../static/img/photos/IMG_4755.JPG" class="photo" alt="tutorial">                        
+                                
+                    <span class="filename_tooltip">IMG_4755.JPG</span>
+                
+                </a>
+               
 
         </div>        
 
@@ -40,7 +58,7 @@
 
             <h3>Opening Photos</h3>
 
-            <p>Join me as I explain my observations and the choices behind the ISO settinhs I use for my photos. </p>           
+            <p>Join me as I explain my observations and the choices behind the ISO settings I use for my photos. </p>           
 
             <p>This first one Taken at the lowest possible ISO as it was a crisp February morning. A flying seabird was the focal point with ideal Aperture setting and only 500 shutter speed necessary with a slow flight speed and wings.</p>
 
@@ -70,6 +88,12 @@
 
 {% endblock %}
 
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> -->
+
 {% block scripts %}
+
 <script type="text/javascript" src="static/app.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="static/lightbox/lightbox.js"></script>
+
  {% endblock %}
