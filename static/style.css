@@ -14,7 +14,7 @@ body {
 .header {
   background: black;
   height: 130px;
-  border-bottom: solid white 3px;
+  border-bottom: solid #fee970 4px;
   color: white;
   padding-top: 20px; }
   .header h1 {
@@ -131,6 +131,7 @@ body {
         font-size: 13px;
         font-weight: normal;
         background: #3a3632;
+        padding: 5px 5px;
         color: white; }
         .container .tutorial_container .image_container > span:hover {
           display: block; }
