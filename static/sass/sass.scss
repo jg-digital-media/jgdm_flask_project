@@ -213,7 +213,9 @@ body {
                 /* display: none; */
                 left: 22px;
                 font-size: 13px;
-                font-weight: bold;
+                font-weight: normal;
+                background: #3a3632;
+                color: white;
 
                 &:hover {
                     display: block;
