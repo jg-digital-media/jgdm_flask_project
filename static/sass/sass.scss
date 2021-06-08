@@ -1,4 +1,4 @@
-/* Last Updated: 26-04-2021 16:07 */
+/* Last Updated: 28-06-2021 12:01 */
 
 //partials
 @import "fonts";
@@ -302,6 +302,18 @@ body {
 
 hr {
     margin: 10px 0;
+}
+
+ul.list {
+
+    position: relative;
+    left: 5px;
+    margin: 4px;
+
+    li {
+        list-style: none;
+        margin: 10px 0;
+    }
 }
 
 .footer {
