@@ -1,2 +1,2 @@
 //log
-console.log("Hello from Flask Project");
+console.log("log from app.js");
