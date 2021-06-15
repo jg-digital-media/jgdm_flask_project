@@ -1,4 +1,4 @@
-/* Last Updated: 28-06-2021 12:01 */
+/* Last Updated: 15-06-2021 14:40 */
 
 //partials
 @import "fonts";
@@ -206,20 +206,30 @@ body {
                 width: 60%;
             }
 
-            
-            > span {
-                position: absolute;
-                top: 20px;
-                /* display: none; */
-                left: 22px;
-                font-size: 13px;
-                font-weight: normal;
-                background: #3a3632;
-                padding: 5px 5px;
-                color: white;
+            a {
+                color: black;
 
-                &:hover {
-                    display: block;
+                img {
+
+                }
+
+            
+                > span {
+                    position: absolute;
+                    top: 29px;
+                    /* display: none; */
+                    left: 22px;
+                    font-size: 13px;
+                    font-weight: normal;
+                    background: #3a3632;
+                    padding: 5px 5px;
+                    color: white;
+                    border-bottom: white solid 3px;
+                    border-radius: 10px 10px 10px 10px;
+
+                    &:hover {
+                        display: block;
+                    }
                 }
             }
         }
@@ -296,7 +306,7 @@ body {
     width: 80%;
 }
 
-.image_containers {
+.image_container {
     padding: 20px;
 }
 
