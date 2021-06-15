@@ -22,6 +22,7 @@ def about():
     return render_template("about.html")
 
 @app.route('/tutorial')
+@app.route('/tutorials')
 def tutorial():
     return render_template("tutorials/tutorial.html")
 
