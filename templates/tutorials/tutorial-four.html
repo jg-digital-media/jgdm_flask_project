@@ -12,6 +12,13 @@
 
 {% endblock %}
 
+{% block lightbox %}
+
+<!-- Lightbox -->
+<link href="../static/lightbox/lightbox.css" rel="stylesheet">
+
+{% endblock %}
+
 {% block header %} Tutorial Pages {% endblock %}</title>
 
 
@@ -35,6 +42,8 @@
                 <img src="../static/img/photos/IMG_7967.JPG" alt="" title="" class="photo" />
                                  
                 <span class="filename_tooltip">IMG_7967.JPG</span>
+
+            </a>
 
         </div>        
 
@@ -70,7 +79,7 @@
 
 {% block scripts %}
 
-<script type="text/javascript" src="static/scripts/app.js"></script>
+<script type="text/javascript" src="../static/scripts/app.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="static/lightbox/lightbox.js"></script>
+<script type="text/javascript" src="../static/lightbox/lightbox.js"></script>
  {% endblock %}
