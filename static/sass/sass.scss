@@ -181,16 +181,6 @@ body {
 
     // Tutorial Route
     .tutorial_container {
-        display: flex;
-        flex-direction: row;      
-
-        @media (max-width: 960px) {
-            //flex-direction: column;
-        }   
-
-        @media (max-width: 680px) {
-            flex-direction: column;
-        }
 
         .image_container {
 
@@ -243,6 +233,37 @@ body {
             border: red solid 1px;
         }        
 
+        
+
+    }
+
+    .single {
+        
+        display: flex;
+        flex-direction: row;      
+        border: solid blue 1px;
+
+
+        @media (max-width: 960px) {
+            //flex-direction: column;
+        }   
+
+        @media (max-width: 680px) {
+            flex-direction: column;
+        }
+
+    }
+
+    .double {    
+        
+        display: flex;
+        flex-direction: row; 
+        border: solid red 1px;
+
+        
+        @media (max-width: 960px) {
+            flex-direction: row-reverse;
+        }   
     }
 
     
