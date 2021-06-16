@@ -1,4 +1,4 @@
-/* Last Updated: 15-06-2021 14:40 */
+/* Last Updated: 16-06-2021 14:25 */
 
 //partials
 @import "fonts";
@@ -298,6 +298,11 @@ body {
 
     @media (max-width: 960px) {
 
+    }
+
+    h3 {
+        border-bottom: solid red 3px;
+        margin-bottom: 10px;
     }
 }
 
