@@ -108,11 +108,13 @@ body {
         margin: 0 auto;
         width: 75%; } }
   .container .tutorial_container .image_container {
-    position: relative; }
+    position: relative;
+    padding: 20px; }
     @media (max-width: 960px) {
       .container .tutorial_container .image_container {
         /* width: 90%; */
-        width: 100%; } }
+        width: 100%;
+        padding: 0; } }
     @media (max-width: 680px) {
       .container .tutorial_container .image_container {
         margin: 0 auto;
@@ -129,10 +131,14 @@ body {
         background: #3a3632;
         padding: 5px 5px;
         color: white;
-        border-bottom: white solid 3px;
+        border-bottom: #ff0000 solid 3px;
         border-radius: 10px 10px 10px 10px; }
         .container .tutorial_container .image_container a > span:hover {
           display: block; }
+        @media (max-width: 980px) {
+          .container .tutorial_container .image_container a > span {
+            /* left: -20px; */
+            top: 10px; } }
   .container .tutorial_container hr {
     width: 250px;
     display: block;
@@ -152,7 +158,9 @@ body {
     border: solid red 1px; }
     @media (max-width: 960px) {
       .container .double {
-        flex-direction: row-reverse; } }
+        flex-direction: row-reverse;
+        flex-direction: column-reverse;
+        padding: 0px; } }
   .container hr {
     width: 250px;
     display: block;
@@ -187,9 +195,6 @@ body {
 
 #main_img {
   width: 80%; }
-
-.image_container {
-  padding: 20px; }
 
 hr {
   margin: 10px 0; }
