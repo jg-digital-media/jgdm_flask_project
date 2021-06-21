@@ -42,6 +42,26 @@ def tutorial_page_4():
     return render_template("tutorials/tutorial-four.html")
 
 
+@app.route('/tutorials/5')
+def tutorial_page_5():
+    return render_template("tutorials/tutorial-five.html")
+
+
+@app.route('/tutorials/6')
+def tutorial_page_6():
+    return render_template("tutorials/tutorial-six.html")
+
+
+@app.route('/tutorials/7')
+def tutorial_page_7():
+    return render_template("tutorials/tutorial-seven.html")
+
+
+@app.route('/tutorials/8')
+def tutorial_page_8():
+    return render_template("tutorials/tutorial-eight.html")
+
+
 
 
 
@@ -50,4 +70,4 @@ def tutorial_page_4():
 def add(num1, num2):
     return render_template("multiply.html", num1=num1, num2=num2)
 
-# app.run(debug=True, port=8000, host='0.0.0.0')
+app.run(debug=True, port=8000, host='0.0.0.0')
