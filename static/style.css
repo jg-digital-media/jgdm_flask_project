@@ -21,6 +21,9 @@ body {
     position: relative;
     top: 5px;
     text-align: center; }
+    .header h1 span {
+      color: #fee970;
+      font-size: 14px; }
   .header nav {
     width: 100%;
     text-align: center;
@@ -147,8 +150,7 @@ body {
     border: red solid 1px; }
   .container .single {
     display: flex;
-    flex-direction: row;
-    border: solid blue 1px; }
+    flex-direction: row; }
     @media (max-width: 680px) {
       .container .single {
         flex-direction: column; } }
